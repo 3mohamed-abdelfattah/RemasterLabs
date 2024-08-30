@@ -58,7 +58,7 @@ To easily deploy and navigate through all the projects, I've created a main `ind
 2. You'll find a list or grid of all the projects with links to each one's individual page.
 3. Click on any project link to view the project.
 
-Or just use my [GitHub Pages link] (https://3mohamed-abdelfattah.github.io/RemasterLabs/)🫡
+Or just use my [GitHub Pages link](https://3mohamed-abdelfattah.github.io/RemasterLabs/)🫡
 
 ## 🚀 Getting Started
 
