@@ -1,7 +1,7 @@
 
 # RemasterLabs: 50+ Remastered Web Projects
 
-Welcome to **RemasterLabs**, a collection of 50+ web projects that have been reimagined and remastered using HTML, CSS, and JavaScript. These projects were originally created by others, but I've taken on the challenge of rebuilding them with my own unique enhancements and improvements.
+Welcome to **RemasterLabs**, a collection of 50+ web projects that have been reimagined and remastered using HTML, CSS, and JavaScript. These projects were originally created by [others](https://www.traversymedia.com/50-Projects-In-50-Days), but I've taken on the challenge of rebuilding them with my own unique enhancements and improvements.
 
 ## 🎯 Goal
 
