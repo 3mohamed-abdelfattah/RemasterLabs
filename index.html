@@ -4,14 +4,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Mini Projects</title>
+    <title>RemasterLabs</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #2C3E50;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+            background-color: #102C57;
+            color: #ffffff;
+            padding: 30px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        main {
+            flex: 1;
+            width: 100%;
+            max-width: 1000px;
+            padding: 40px 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        li {
+            flex: 1 1 calc(33% - 40px);
+            min-width: 250px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+        }
+
+        li:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            background-color: #102C57;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            text-decoration: none;
+            color: #102C57;
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-align: center;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        a img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            padding: 10px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        a:hover img {
+            transform: rotate(360deg);
+            background-color: #ffffff;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #102C57;
+            color: #ffffff;
+            padding: 5px 0;
+            text-align: center;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer span a {
+            font-size: 16px;
+            padding: 5px;
+            color: #DAC0A3;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Welcome to My Mini Projects</h1>
-    <ul>
-        <li><a href="./ExpandingCards/index.html">Project 1</a></li>
-    </ul>
+    <header>
+        <h1>Remaster Labs</h1>
+    </header>
+    <main>
+        <ul>
+            <li>
+                <a href="./ExpandingCards/index.html">
+                    <img src="./ExpandingCards/assets/logo.png" alt="Project 1 Icon">
+                    Project 1: Expanding Cards
+                </a>
+            </li>
+            <li>
+                <a href="project2/index.html">
+                    <img src="icon2.png" alt="Project 2 Icon">
+                    Project 2: Cool Website
+                </a>
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mohamed Mohamed. All Rights Reserved.</p><span><a
+                href="mailto:mohamed.devmaster@gmail.com">mohamed.devmaster@gmail.com</a></span>
+    </footer>
 </body>
 
 </html>
