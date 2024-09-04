@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+:root {
+    --line-border-fill: #16423C;
+    --line-border-empty: #C4DAD2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9EFEC;
+    font-family: "Handjet", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    max-width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.progress-container::before {
+    content: '';
+    position: absolute;
+    background-color: var(--line-border-empty);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+}
+
+.progress {
+    background-color: var(--line-border-fill);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.7s ease;
+}
+
+.circle {
+    background-color: #C4DAD2;
+    color: #16423C;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--line-border-empty);
+    transition: 0.8s ease-in;
+    font-size: 25px;
+}
+
+.circle.active {
+    border-color: var(--line-border-fill);
+    background-color: #16423C;
+    color: #fff;
+}
+
+.btn {
+    background-color: var(--line-border-fill);
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.btn:active {
+    transform: scale(1.05);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:disabled {
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
+}
