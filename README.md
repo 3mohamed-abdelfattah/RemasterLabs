@@ -48,6 +48,18 @@ Welcome to **RemasterLabs**, a collection of 50+ web projects that have been rei
 
 ...
 
+## 🚀 Deployment
+
+To easily deploy and navigate through all the projects, I've created a main `index.html` file located in the root directory of the repository. This file serves as an entry point, allowing you to access and view each of the 50+ projects directly.
+
+### How to Use the Main Index:
+
+1. Open `index.html` in your browser.
+2. You'll find a list or grid of all the projects with links to each one's individual page.
+3. Click on any project link to view the project.
+
+Or just use my [GitHub Pages link](https://3mohamed-abdelfattah.github.io/RemasterLabs/)🫡
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
